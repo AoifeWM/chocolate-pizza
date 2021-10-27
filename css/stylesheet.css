@@ -1,0 +1,95 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+nav #logo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+nav #logo i {
+    float: left;
+    font-size: 2.3rem;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 3px;
+}
+
+nav #logo div {
+    margin-left: 1rem;
+}
+
+nav #logo div h1 {
+    font-size: 4rem;
+    font-family: cursive;
+    font-style: italic;
+}
+
+nav #logo div p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav #social {
+    display: flex;
+    flex-direction: row;
+}
+
+nav #social ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0.6rem;
+}
+
+nav #social ul li {
+    font-size: 1rem;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+    margin: 0.1rem;
+    border-radius: 2px;
+}
+
+nav #social ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav #social ul li a i {
+    text-decoration: none;
+    padding: .5rem;
+}
+
+header #banner {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+header #banner img {
+    display: flex;
+    margin: none;
+    padding: none;
+}
+
+body #mainArticle {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body #mainArticle img {
+    width: inherit;
+}

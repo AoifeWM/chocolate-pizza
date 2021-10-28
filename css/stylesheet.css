@@ -125,6 +125,7 @@ body #mainArticle p {
 }
 
 body #mainArticle #list {
+    background-image: url("img/list-bg.png");
     background-image: url("/img/list-bg.png");
     width: 1240px;
     height: 420px;

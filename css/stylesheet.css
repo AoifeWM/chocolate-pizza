@@ -125,11 +125,11 @@ body #mainArticle p {
 }
 
 body #mainArticle #list {
-    background-image: url("list-bg.png");
+    /* background-image: url("list-bg.png"); */
     background-image: url("img/list-bg.png");
-    background-image: url("/img/list-bg.png");
+    /* background-image: url("/img/list-bg.png");
     background-image: url("./img/list-bg.png");
-    background-image: url("/list-bg.png");
+    background-image: url("/list-bg.png"); */
     width: 1240px;
     height: 420px;
     background-repeat:no-repeat;

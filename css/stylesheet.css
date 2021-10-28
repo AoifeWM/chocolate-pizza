@@ -70,7 +70,7 @@ nav #social ul li a i {
     padding: .5rem;
 }
 
-header #banner {
+header #banner, body #banner2 {
     width: 1240px;
     margin-left: auto;
     margin-right: auto;
@@ -89,7 +89,43 @@ body #mainArticle {
     width: 1240px;
     margin-left: auto;
     margin-right: auto;
+    margin-top:  4.5rem;
 }
 body #mainArticle img {
     width: inherit;
+    margin-top: 2rem;
+}
+
+body #mainArticle h1 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+body #mainArticle #subtext {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: rgb(166, 166, 167);
+    font-family: sans-serif;
+}
+
+body #mainArticle #print {
+    padding: 5px;
+    cursor: pointer;
+}
+
+body #mainArticle p {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    text-indent: 3rem;
+    color:grey;
+    line-height: 2rem;
+}
+
+body #mainArticle #list {
+    background-image: "img/list-bg.png";
+    width: 1240px;
+    height: 1100px;
 }

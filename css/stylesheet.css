@@ -124,15 +124,10 @@ body #mainArticle p {
     line-height: 2rem;
 }
 
-body #mainArticle #list {
-    /* background-image: url("list-bg.png"); */
-    background-image: url("img/list-bg.png");
-    /* background-image: url("/img/list-bg.png");
-    background-image: url("./img/list-bg.png");
-    background-image: url("/list-bg.png"); */
+#list {
+    background-image: url("../img/list-bg.png");
     width: 1240px;
     height: 420px;
-    background-repeat:no-repeat;
     background-size: cover;
     display:flex;
     justify-content: center;

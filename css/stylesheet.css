@@ -254,7 +254,7 @@ footer div i{
 footer{
     display: flex;
     justify-content: center;
-    height:300px;
+    height:100px;
 }
 
 #filler{
@@ -266,6 +266,17 @@ footer{
 
 footer div{
     width:1240px;
+}
+
+#bottom-text{
+    display: flex;
+    font-size: 1rem;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 100px;
+    color:rgb(70, 69, 69);
 }
 
 
